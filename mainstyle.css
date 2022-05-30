@@ -30,6 +30,7 @@ html{
 .header-top {
   display: flexbox;
   justify-content: center;
+  align-content: center;
   width: 100%;
   height: 50px;
   margin-left:auto;
@@ -47,6 +48,7 @@ html{
 .btn-top {
   width: 150px;
   height: 50px;
+  justify-content: center;
   margin-right: 15px;
   background-color: var(--clr-grey);
   border-top-left-radius: 10px;
@@ -179,6 +181,8 @@ a{
   color: var(--clr-font);
   font-family: var(--ff-secondary);
   text-decoration: none;
+  align-content: center;
+  justify-content: center;
 }
 
 .navbar{
@@ -298,6 +302,7 @@ a{
 /* Navigation grå main */
 .nav-bg {
   background-color: #FCF9F7;
+  display: flex;
   width: 100%;
   min-height: 30px;
   border-top-left-radius: 500px;
@@ -311,11 +316,10 @@ a{
 
 .bg-btn {
   background-color: var(--clr-grey);
-  width: 910px;
+  width: 900px;
   height: 75px;
   border-radius: 30px;
-  justify-content: center;
-  align-content: center;
+  display: flex;
   margin: auto;
 }
 .nav-btn {
@@ -324,10 +328,12 @@ a{
   width: 300px;
   border-style: none;
   border-radius: 30px;
+  text-align: center;
   color: var(--clr-font);
   font-family: var(--ff-secondary);
   font-size: var(--fs-nav);
   font-weight: var(--fx-bold);
+  padding-top: 24px;
 }
 
 .nav-btn1 {
@@ -339,6 +345,7 @@ a{
   font-family: var(--ff-secondary);
   font-size: var(--fs-nav);
   font-weight: var(--fx-bold);
+  padding-top: 24px;
 }
 
 .nav-btn:hover {
