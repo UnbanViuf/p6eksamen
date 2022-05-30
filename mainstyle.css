@@ -376,6 +376,7 @@ a{
   font-size: var(--fs-nav);
   padding-top: 12px;
 }
+
 .nav-btn21 {
   background-color: var(--clr-green);
   height: 50px;
@@ -385,7 +386,6 @@ a{
   font-family: var(--ff-secondary);
   font-size: var(--fs-nav);
   padding-top: 12px;
-  
 }
 
 .nav-btn2:hover {
