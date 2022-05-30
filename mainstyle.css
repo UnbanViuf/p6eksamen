@@ -361,6 +361,7 @@ a{
   height: 50px;
   border-radius: 30px;
   justify-content: center;
+  display: flex;
   margin: auto;
 }
 .nav-btn2 {
@@ -372,6 +373,7 @@ a{
   color: var(--clr-font);
   font-family: var(--ff-secondary);
   font-size: var(--fs-nav);
+  padding-top: 12px;
 }
 .nav-btn21 {
   background-color: var(--clr-green);
@@ -381,6 +383,8 @@ a{
   border-radius: 30px;
   font-family: var(--ff-secondary);
   font-size: var(--fs-nav);
+  padding-top: 12px;
+  
 }
 
 .nav-btn2:hover {
@@ -392,7 +396,7 @@ a{
 /* Navigation grå 3 */
 .bg-btn3 {
   background-color: var(--clr-grey);
-  width: 500px;
+  width: 494px;
   height: 50px;
   border-radius: 30px;
   justify-content: center;
