@@ -759,7 +759,7 @@ a{
   width: 50%;
 }
 
-.slideshow {grid-area: mySlide;}
+.slideshow {grid-area: slideshow;}
 .text2 { grid-area: text2;}
 
 .gridcontainer {
@@ -767,7 +767,7 @@ a{
   margin: 1%;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: 
-  'mySlide text2';
+  'slideshow text2';
 }
 
 .text1 {
