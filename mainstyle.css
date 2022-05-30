@@ -299,6 +299,7 @@ a{
 .nav-bg {
   background-color: #FCF9F7;
   width: 100%;
+  min-height: 30px;
   border-top-left-radius: 500px;
   border-top-right-radius: 500px;
   text-align: center;
