@@ -707,7 +707,7 @@ a{
   grid-gap: 1%;
   margin: 1%;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: 
+  grid-template-areas:
   'grid1 grid2 grid3'
   'grid4 grid5 grid6'
   'grid7 grid8 grid9';
@@ -766,7 +766,7 @@ a{
   display: grid;
   margin: 1%;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: 
+  grid-template-areas:
   'slideshow text2';
 }
 
