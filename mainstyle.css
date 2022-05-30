@@ -396,10 +396,11 @@ a{
 /* Navigation grå 3 */
 .bg-btn3 {
   background-color: var(--clr-grey);
-  width: 494px;
+  width: 485px;
   height: 50px;
   border-radius: 30px;
   justify-content: center;
+  display: flex;
   margin: auto;
 }
 .nav-btn3 {
@@ -412,6 +413,7 @@ a{
   font-family: var(--ff-secondary);
   font-size: var(--fs-p);
   font-weight: var(--fx-bold);
+  padding-top: 15px;
 }
 .nav-btn31 {
   background-color: var(--clr-green);
@@ -422,6 +424,7 @@ a{
   font-family: var(--ff-secondary);
   font-size: var(--fs-p);
   font-weight: var(--fx-bold);
+  padding-top: 15px;
 }
 
 .nav-btn3:hover {
@@ -445,6 +448,11 @@ a{
   color: var(--clr-font);
   font-weight: lighter;
   text-align: center;
+  align-content: center;
+  justify-content:space-around;
+  display:flex;
+  flex-direction: column;
+  margin: auto;
 }
 
 .ytvid {
@@ -702,6 +710,9 @@ a{
   color: var(--clr-font-light);
   font-family: var(--ff-secondary);
   cursor: pointer;
+  padding-top: 15px;
+  align-content: center;
+  justify-content: center;
 }
 
 .grid1 {grid-area: grid1;}
